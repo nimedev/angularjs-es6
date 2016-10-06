@@ -13,6 +13,6 @@ import homeConfig from './home.config'
  */
 export default angular
   .module('home', [])
-  .component(`ajsHome`, homeComponent)
+  .component('ajsHome', homeComponent)
   .config(homeConfig)
   .name

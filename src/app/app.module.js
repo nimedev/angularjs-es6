@@ -48,7 +48,7 @@ export default angular
     interceptorModule,
     servicesModule
   ])
-  .component(`appRoot`, appComponent)
+  .component('appRoot', appComponent)
   .config(appConfig)
   .constant('constants', appConstants)
   .name

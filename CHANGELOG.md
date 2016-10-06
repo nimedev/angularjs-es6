@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.3] - 2012-10-06
+
+### Fixed
+- Little fixes.
+
+
 ## [1.0.2] - 2012-10-06
 
 ### Modified

@@ -10,8 +10,6 @@ export class StylesService {
 
   /**
    * Use the $inject property to ensure proper functionality after minification
-   * @param {IWindowService} $windows - for DOM manipulation
-   * @param {Object} constants - to get CSS breakpoints
    */
   static get $inject() {
     return ['$window', 'constants']
@@ -19,14 +17,13 @@ export class StylesService {
 
   /**
    * Create a stylesService
-   * @param {Rest} args - extended parameters with injected dependencies
+   * @param {IWindowService} $windows - for DOM manipulation
+   * @param {Object} constants - to get CSS breakpoints
    */
-  constructor(...args) {
+  constructor($window, constants) {
     // Dependencies
-    [
-      this.$window,
-      this.constants
-    ] = args
+    this.$window = $window
+    this.constants = constants
 
     // JS class hooks
     this.scrollingHook = 'is-not-scrolling'

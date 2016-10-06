@@ -30,10 +30,6 @@ export class DynamicHeadService {
 
   /**
    * Use the $inject property to ensure proper functionality after minification
-   * @param {IRootScopeService} $rootScope - to register events handlers.
-   * @param {Object} $state - to get current state object
-   * @param {IWindowService} $window - to change page title.
-   * @param {I18nService} i18nService - to get text for head.
    */
   static get $inject() {
     return ['$rootScope', '$state', '$window', 'i18nService']
@@ -41,16 +37,17 @@ export class DynamicHeadService {
 
   /**
    * Create a dynamicHead Service
-   * @param {Rest} args - extended parameters with injected dependencies
+   * @param {IRootScopeService} $rootScope - to register events handlers.
+   * @param {Object} $state - to get current state object
+   * @param {IWindowService} $window - to change page title.
+   * @param {I18nService} i18nService - to get text for head.
    */
-  constructor(...args) {
+  constructor($rootScope, $state, $window, i18nService) {
     // Dependencies
-    [
-      this.$rootScope,
-      this.$state,
-      this.$window,
-      this.i18nService
-    ] = args
+    this.$rootScope = $rootScope
+    this.$state = $state
+    this.$window = $window
+    this.i18nService = i18nService
   }
 
   /**

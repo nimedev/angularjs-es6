@@ -10,7 +10,6 @@ export default class {
 
   /**
    * Use the $inject property to ensure proper functionality after minification
-   * @param {I18nService} i18nService - to change language.
    */
   static get $inject() {
     return ['i18nService']
@@ -18,11 +17,11 @@ export default class {
 
   /**
    * Create a controler for home component
-   * @param {Rest} args - extended parameters with injected dependencies
+   * @param {I18nService} i18nService - to change language.
    */
-  constructor(...args) {
+  constructor(i18nService) {
     // Dependencies
-    [this.i18nService] = args
+    this.i18nService = i18nService
   }
 
   /**

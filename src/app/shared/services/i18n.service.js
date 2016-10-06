@@ -13,10 +13,6 @@ export class I18nService {
 
   /**
    * Use the $inject property to ensure proper functionality after minification
-   * @param {ILogService} $log - to log in development mode.
-   * @param {IRootScopeService} $rootScope - to emit events.
-   * @param {Object} $translate - to get i18n texts using translate service
-   *  and change language.
    */
   static get $inject() {
     return ['$log', '$rootScope', '$translate']
@@ -24,15 +20,16 @@ export class I18nService {
 
   /**
    * Create a i18nService
-   * @param {Rest} args - extended parameters with injected dependencies
+   * @param {ILogService} $log - to log in development mode.
+   * @param {IRootScopeService} $rootScope - to emit events.
+   * @param {Object} $translate - to get i18n texts using translate service
+   *  and change language.
    */
-  constructor(...args) {
+  constructor($log, $rootScope, $translate) {
     // Dependencies
-    [
-      this.$log,
-      this.$rootScope,
-      this.$translate
-    ] = args
+    this.$log = $log
+    this.$rootScope = $rootScope
+    this.$translate = $translate
 
     // Store text loaded by service function
     this.texts = []

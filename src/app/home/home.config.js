@@ -20,7 +20,7 @@ export default function homeConfig($stateProvider) {
   $stateProvider
     .state(stateName, {
       url: '/',
-      template: '<ats-home></ats-home>',
+      template: '<ajs-home></ajs-home>',
       data: {
         dynamicHead: {
           title: 'HOME.HEAD_TITLE',

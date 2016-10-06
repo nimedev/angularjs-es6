@@ -1,9 +1,9 @@
-/** Home component (ats-home in the DOM) */
+/** Home component (ajs-home in the DOM) */
 
 /* Root component selector
    ========================================================================== */
 
-ats-home {
+ajs-home {
   /* Box-model */
   display: block;
   padding: 1rem;

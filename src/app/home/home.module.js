@@ -8,14 +8,11 @@ import angular from 'angular'
 import { homeComponent } from './home.component'
 import homeConfig from './home.config'
 
-// Component prefix
-const prefix = 'ats'
-
 /**
  * Module name
  */
 export default angular
   .module('home', [])
-  .component(`${prefix}Home`, homeComponent)
+  .component(`ajsHome`, homeComponent)
   .config(homeConfig)
   .name

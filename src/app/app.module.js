@@ -28,9 +28,6 @@ import { servicesModule } from './shared/services'
 // Application constants
 import appConstants from './app.constants'
 
-// Component prefix
-const prefix = 'app'
-
 /**
  * Module name
  */
@@ -51,7 +48,7 @@ export default angular
     interceptorModule,
     servicesModule
   ])
-  .component(`${prefix}Root`, appComponent)
+  .component(`appRoot`, appComponent)
   .config(appConfig)
   .constant('constants', appConstants)
   .name

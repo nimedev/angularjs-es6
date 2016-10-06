@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.2] - 2012-10-06
+
+### Modified
+- Remove const prefix from modules files.
+
+
 ## [1.0.1] - 2012-10-06
 
 ### Modified

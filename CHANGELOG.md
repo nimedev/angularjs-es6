@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.4] - 2012-10-06
+
+### Modified
+- Export constants through app index. 
+
+
 ## [1.0.3] - 2012-10-06
 
 ### Fixed

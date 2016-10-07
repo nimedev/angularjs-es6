@@ -1,6 +1,6 @@
 {
-  "name": "angularts-es6",
-  "version": "1.0.4",
+  "name": "angularjs-es6",
+  "version": "1.0.5",
   "description": "A starting point for building web applications with AngularJS 1.5 using ES6, Webpack and PostCSS",
   "scripts": {
     "build": "npm run constants && webpack --config webpack.config.build.js",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nimedev/angularts-es6.git"
+    "url": "https://github.com/nimedev/angularjs-es6.git"
   },
   "keywords": [
     "angularjs",
@@ -31,9 +31,9 @@
   "author": "nicolasmejiaco@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nimedev/angularts-es6/issues"
+    "url": "https://github.com/nimedev/angularjs-es6/issues"
   },
-  "homepage": "https://github.com/nimedev/angularts-es6#readme",
+  "homepage": "https://github.com/nimedev/angularjs-es6#readme",
   "engines": {
     "npm": ">=3.10.8",
     "node": ">=6.7.0 <7.0.0"

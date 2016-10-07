@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.5] - 2012-10-06
+
+### Fixed
+- Change application name in package.json file.
+
+
 ## [1.0.4] - 2012-10-06
 
 ### Modified

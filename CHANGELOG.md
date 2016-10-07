@@ -1,5 +1,21 @@
 # Change Log
 
+## [1.1.0] - 2012-10-07
+
+### Deleted
+- Remove node-notifier package.
+
+### Modified
+- Clean niduscss framework.
+- Improve styles folder.
+- Move app.constants.js to shared folder.
+- Move shared folder to src.
+- Move typings to src folder.
+
+### Updated
+- Upgrade postcss-mixins.
+
+
 ## [1.0.5] - 2012-10-06
 
 ### Fixed

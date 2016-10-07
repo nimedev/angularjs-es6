@@ -5,4 +5,4 @@ dist
 node_modules
 
 # misc
-src/app/app.constants.js
+app.constants.js

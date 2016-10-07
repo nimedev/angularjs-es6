@@ -32,7 +32,7 @@ You can use `typings` for intellisense (I use this in VScode).
 ```sh
 npm install typings -g
 # cd to your project folder
-typings install
+npm run typings
 ```
 
 This create a typings folder which you can reference in your JavaScript files to get intellisense.

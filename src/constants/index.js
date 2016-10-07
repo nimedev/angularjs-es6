@@ -14,7 +14,7 @@ const constants = require(`./constants`)
 
 // Constants & Variables
 const fileName = 'app.constants.js'
-const destPath = path.resolve(`${__dirname}/../app/${fileName}`)
+const destPath = path.resolve(`${__dirname}/../shared/${fileName}`)
 // eslint-disable-next-line no-console
 console.log(destPath)
 

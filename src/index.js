@@ -1,6 +1,6 @@
 /**
  * Main module used to bootstrap de application
- * @module main
+ * @module index
  */
 
 // Dependencies

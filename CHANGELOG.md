@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.1] - 2012-10-07
+
+### Modified
+- Improve webpack configuration.
+
+
 ## [1.1.0] - 2012-10-07
 
 ### Deleted

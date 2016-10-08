@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.2] - 2012-10-07
+
+### Modified
+- Remove root property from resolve en webpack.config file.
+
+
 ## [1.1.1] - 2012-10-07
 
 ### Modified

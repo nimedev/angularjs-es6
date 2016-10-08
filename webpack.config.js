@@ -43,7 +43,6 @@ const common = {
     })
   ],
   resolve: {
-    root: __dirname,
     extensions: ['', '.js', '.json', '.css']
   },
   resolveLoader: {

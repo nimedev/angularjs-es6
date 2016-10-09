@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.2.0] - 2012-10-09
+
+### Modified
+- Modify environment variables for API.
+
+### Updated
+Upgrade clean-webpack-plugin, eslint-config-nimedev and stylelint.
+
+
 ## [1.1.2] - 2012-10-07
 
 ### Modified

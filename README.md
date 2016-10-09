@@ -42,9 +42,13 @@ This create a typings folder which you can reference in your JavaScript files to
 
 ### Environment variables
 
-- Environment: `NODE_ENV`='development'
-- Webapplication dev server: `ANGULARJS_ES6_HOST`=localIP and `ANGULARJS_ES6_PORT`=3000
-- API url: `ANGULARJS_ES6_API_HOST`=localIP and `ANGULARJS_ES6_API_PORT`=8080
+#### Host configuration
+- `NODE_ENV="development"`. Environment for server.
+- `ANGULARJS_ES6_HOST=localIP`. Host of webapplication.
+- `ANGULARJS_ES6_PORT=3000`. Por of webapplication (Use in development).
+
+#### Access URLs
+- `ANGULARJS_ES6_API_URL="http://${ip.address()}:${8080}/api"`. Url of API.
 
 To change any of this variables:
 

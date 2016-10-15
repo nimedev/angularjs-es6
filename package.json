@@ -1,6 +1,6 @@
 {
   "name": "angularjs-es6",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A starting point for building web applications with AngularJS 1.5 using ES6, Webpack and PostCSS",
   "scripts": {
     "build": "npm run constants && webpack",

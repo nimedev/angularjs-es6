@@ -1,5 +1,18 @@
 # Change Log
 
+## [2.0.0] - 2012-10-15
+
+### Added
+- Simplify folder structure to start.
+
+### Modified
+- Migrate to yarn.
+
+### Updated
+- autoprefixer clean-webpack-plugin eslint stylelint.
+- Use nodejs v6.8.0.
+
+
 ## [1.2.0] - 2012-10-09
 
 ### Modified

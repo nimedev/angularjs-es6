@@ -5,13 +5,11 @@
 
 // Dependencies
 import angular from 'angular'
-import './styles'
-
-// Application component
-import { appComponent } from './components'
-
-// Application constants
 import { constants } from './constants'
+
+// Import base styles before all components
+import './styles'
+import { appComponent } from './components'
 
 // Constants
 const appName = constants.appName

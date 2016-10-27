@@ -1,5 +1,15 @@
 # Change Log
 
+## [2.2.0] - 2012-10-27
+
+### Modified
+- Move some assets to public folder.
+
+### Updated
+- Use nodejs v6.9.1.
+- Upgrade niduscss-elements-form and niduscss-lib-mixins.
+- Upgrade stylelint, babel-core, babel-loader, babel-preset-es2015, copy-webpack-plugin, html-webpack-plugin and webpack.
+
 ## [2.1.1] - 2012-10-18
 
 ### Updated

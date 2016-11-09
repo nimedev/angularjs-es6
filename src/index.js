@@ -5,7 +5,7 @@
 
 // Dependencies
 import angular from 'angular'
-import { constants } from './constants'
+import constants from './constants'
 
 // Import base styles before all components
 import './styles'

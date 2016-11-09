@@ -1,5 +1,16 @@
 # Change Log
 
+## [2.3.0] - 2012-11-09
+
+### Modified
+- Use environment variables to set constants in webpack module.
+- Update lint:js script.
+
+### Updated
+- Remove typings.
+- Upgrade autoprefixer, babel-core, clean-webpack-plugin, eslint-loader, eslint, html-webpack-plugin, postcss-loader, ip and postcss-import.
+
+
 ## [2.2.0] - 2012-10-27
 
 ### Modified

@@ -1,12 +1,13 @@
-// core modules
-const path = require('path')
+// Set default node environment to development
+process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 
-// npm modules
+const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ip = require('ip')
 const merge = require('webpack-merge')
 const opener = require('opener')
 const validate = require('webpack-validator')
+const webpack = require('webpack')
 
 // Configuration parts
 const parts = require('./libs/webpack.parts')
@@ -14,6 +15,7 @@ const parts = require('./libs/webpack.parts')
 // Constants & Variables
 const host = process.env.ANGULARJS_ES6_HOST || ip.address()
 const port = process.env.ANGULARJS_ES6_PORT || 3000
+const apiUrl = process.env.ANGULARJS_ES6_API_URL || `http://${ip.address()}:${8080}/api`
 const PATHS = {
   app: path.join(__dirname, 'src'),
   dist: path.join(__dirname, 'dist'),
@@ -40,6 +42,12 @@ const common = {
     filename: '[name].js'
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+        'ANGULARJS_ES6_API_URL': JSON.stringify(apiUrl)
+      }
+    }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
       hash: true

@@ -1,11 +1,11 @@
 {
   "name": "angularjs-es6",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "description": "A starting point for building web applications with AngularJS 1.5 using ES6, Webpack and PostCSS",
   "scripts": {
     "build": "webpack",
     "lint": "npm run lint:css && npm run lint:js",
-    "lint:css": "stylelint 'src/**/*.css'",
+    "lint:css": "stylelint 'app/**/*.css'",
     "lint:js": "eslint . --ext js",
     "start": "npm run watch",
     "watch": "webpack-dev-server"
@@ -57,7 +57,7 @@
     "babel-preset-stage-1": "6.16.0",
     "clean-webpack-plugin": "0.1.14",
     "copy-webpack-plugin": "4.0.1",
-    "css-loader": "0.25.0",
+    "css-loader": "0.26.0",
     "eslint": "3.10.2",
     "eslint-config-nimedev": "3.1.0",
     "eslint-loader": "1.6.1",

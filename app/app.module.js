@@ -3,7 +3,6 @@
  * @module app.module
  */
 
-// Dependencies
 import angular from 'angular'
 import appComponent from './app.component'
 

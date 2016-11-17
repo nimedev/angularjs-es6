@@ -17,7 +17,7 @@ const host = process.env.ANGULARJS_ES6_HOST || ip.address()
 const port = process.env.ANGULARJS_ES6_PORT || 3000
 const apiUrl = process.env.ANGULARJS_ES6_API_URL || `http://${ip.address()}:${8080}/api`
 const PATHS = {
-  app: path.join(__dirname, 'src'),
+  app: path.join(__dirname, 'app'),
   dist: path.join(__dirname, 'dist'),
   images: path.join(__dirname, 'public/assets/img'),
   fonts: path.join(__dirname, 'public/assets/fonts'),

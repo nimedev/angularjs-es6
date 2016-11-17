@@ -1,5 +1,17 @@
 # Change Log
 
+## [2.4.0] - 2012-11-16
+
+### Added
+- Minify index.html when build.
+
+### Modified
+- Update vscode settings.
+
+### Updated
+- Upgrade autoprefixer, copy-webpack-plugin, eslint, postcss-import, postcss-loader and webpack-merge.
+
+
 ## [2.3.0] - 2012-11-09
 
 ### Modified
